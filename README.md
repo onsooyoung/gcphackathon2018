@@ -10,44 +10,48 @@
 * Data Studio
 
 ### tree
-# Project tree
-
+```
 .
-|-- ./manage.py
-|-- ./db.sqlite3
-|-- ./gcphackathon
-|   |-- ./gcphackathon/__init__.py
-|   |-- ./gcphackathon/wsgi.py
-|   |-- ./gcphackathon/settings.py
-|   |-- ./gcphackathon/urls.py
-|   `-- ./gcphackathon/__pycache__
-|       |-- ./gcphackathon/__pycache__/__init__.cpython-36.pyc
-|       |-- ./gcphackathon/__pycache__/wsgi.cpython-36.pyc
-|       |-- ./gcphackathon/__pycache__/settings.cpython-36.pyc
-|       `-- ./gcphackathon/__pycache__/urls.cpython-36.pyc
-|-- ./b7ssof
-|   |-- ./b7ssof/urls.py
-|   |-- ./b7ssof/__init__.py
-|   |-- ./b7ssof/admin.py
-|   |-- ./b7ssof/apps.py
-|   |-- ./b7ssof/models.py
-|   |-- ./b7ssof/tests.py
-|   |-- ./b7ssof/migrations
-|   |   |-- ./b7ssof/migrations/__init__.py
-|   |   `-- ./b7ssof/migrations/__pycache__
-|   |       `-- ./b7ssof/migrations/__pycache__/__init__.cpython-36.pyc
-|   |-- ./b7ssof/templates
-|   |   `-- ./b7ssof/templates/b7ssof
-|   |       |-- ./b7ssof/templates/b7ssof/footer.html
-|   |       |-- ./b7ssof/templates/b7ssof/index.html
-|   |       |-- ./b7ssof/templates/b7ssof/analsys.html
-|   |       `-- ./b7ssof/templates/b7ssof/rank.html
-|   |-- ./b7ssof/views.py
-|   `-- ./b7ssof/__pycache__
-|       |-- ./b7ssof/__pycache__/__init__.cpython-36.pyc
-|       |-- ./b7ssof/__pycache__/admin.cpython-36.pyc
-|       |-- ./b7ssof/__pycache__/models.cpython-36.pyc
-|       |-- ./b7ssof/__pycache__/urls.cpython-36.pyc
-|       `-- ./b7ssof/__pycache__/views.cpython-36.pyc
-|-- ./README.md
+├── README.md
+├── b7ssof
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-36.pyc
+│   │   ├── admin.cpython-36.pyc
+│   │   ├── models.cpython-36.pyc
+│   │   ├── urls.cpython-36.pyc
+│   │   └── views.cpython-36.pyc
+│   ├── admin.py
+│   ├── apps.py
+│   ├── migrations
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   │       └── __init__.cpython-36.pyc
+│   ├── models.py
+│   ├── templates
+│   │   └── b7ssof
+│   │       ├── analsys.html
+│   │       ├── footer.html
+│   │       ├── index.html
+│   │       └── rank.html
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+├── db.sqlite3
+├── gcphackathon
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-36.pyc
+│   │   ├── settings.cpython-36.pyc
+│   │   ├── urls.cpython-36.pyc
+│   │   └── wsgi.cpython-36.pyc
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── manage.py
+└── tree-md.sh
+
+8 directories, 30 files
+
+```
 
