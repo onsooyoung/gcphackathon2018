@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2018 Korea Big7 - Google Cloud Platform Hackathon</title>
+    <style>
+        #content{
+            text-align:left;
+            margin:10px 0px 100px 0px;
+        }
+        br{margin-bottom:10px;}
+    </style>
+</head>
+<body>
+
+<div>
+    <div>
+        <h1>Smart Stackoverflow...</h1>
+
+        <button id="" onclick="window.location.href='/'">Question</button>
+        <button id="" onclick="window.location.href='/rank'">Ranking</button>
+        <hr>
+
+    </div>
+
+    <div id="content">
+        <label>응답받을 확률: </label><span>58%</span>
+        <br class="mb10"/>
+        <label>유사한 질문들</label>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <td>How do I test a private function or a class that has private</td>
+                    </tr>
+                    <tr>
+                        <td>Catch multiple exceptions at once? … </td>
+                    </tr>
+                    <tr>
+                        <td>When to use an interface instead of an abstract class and vice versa? … </td>
+                    </tr>
+                    <tr>
+                        <td>What's the difference between a "script" and an "application"?</td>
+                    </tr>
+
+                </thead>
+            </table>
+        </div>
+
+        <br class="mb10"/>
+        <label>기간별 응답받을 확률</label>
+        <div>
+            <table>
+                <thead>
+                    <th>1Day</th><th>2Day</th><th>3Day</th><th>other</th>
+
+                    <tr>
+                        <td>10%</td>
+                        <td>20%</td>
+                        <td>60%</td>
+                        <td>10%</td>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <br/>
+
+    </div>
+
+    {% extends "b7ssof/footer.html" %}
+
+
+</div>
+
+</body>
+</html>
